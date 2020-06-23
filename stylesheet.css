@@ -1,0 +1,106 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    margin:0; /*Add this*/
+}
+body{
+	font-family: Helvetica, "sans serif";
+	margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.heading{
+  padding: 10px 30px;
+  text-align: center;
+}
+.m-0{
+  margin: 0;
+}
+.row:after {
+  	content: "";
+  	display: table;
+  	clear: both;
+}
+.our-service-wrapper{
+	background-color: #00b1cd;
+	color: #FFF;
+}
+.col-1 {
+    	float: left;
+  	width: 100%;
+  	padding: 10px;
+}
+.col-2 {
+    	float: left;
+  	width: 50%;
+  	padding: 10px;
+}
+.square {
+	width: 100%;
+    	padding: 0;
+}
+.square li {
+    	list-style: none;
+	text-align: center;
+	width: 49%;
+	float: left;
+	border: solid 1px #FFF;
+	padding: 12px;
+	min-height: 200px;
+}
+.square li span.fa{
+    font-size: 60px;
+}
+.square li h5{
+    margin: 10px 0;
+    font-size: 18px;
+}
+.square li p{
+    font-size: 14px;
+}
+.form-input{
+  margin: 15px auto;
+}
+
+.form-input label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.form-input input{
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  padding: 8px;
+  border: solid 1px #ddd;
+}
+.form-input textarea{
+  border-radius: 8px;
+  border: solid 1px #ddd;
+  width: 100%;
+  min-height: 120px;
+  padding: 8px;
+}
+.btn-input{
+  border: solid 1px #007CFF;
+  border-radius: 8px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.btn-input:hover{
+  border: solid 1px #DDD;
+  color: #fff;
+  background-color: #007CFF; 
+}
+
+@media only screen and (max-width: 670px) {
+  .col-2 {
+    width: 100%;
+  }
+  .square li {
+	min-height: 220px;
+  }
+}
